@@ -1,0 +1,22 @@
+<xml>
+	
+	<files id="libz">
+		
+		<compilerflag value="-I${LIB_PREFIX}/z/include/"/>
+		
+		<file name="${LIB_PREFIX}/z/src/adler32.c"/>
+		<file name="${LIB_PREFIX}/z/src/crc32.c"/>
+		<file name="${LIB_PREFIX}/z/src/infback.c"/>
+		<file name="${LIB_PREFIX}/z/src/inflate.c"/>
+		<file name="${LIB_PREFIX}/z/src/uncompr.c"/>
+		<file name="${LIB_PREFIX}/z/src/compress.c"/>
+		<file name="${LIB_PREFIX}/z/src/deflate.c"/>
+		<file name="${LIB_PREFIX}/z/src/gzio.c"/>
+		<file name="${LIB_PREFIX}/z/src/inffast.c"/>
+		<file name="${LIB_PREFIX}/z/src/inftrees.c"/>
+		<file name="${LIB_PREFIX}/z/src/trees.c"/>
+		<file name="${LIB_PREFIX}/z/src/zutil.c"/>
+		
+	</files>
+	
+</xml>
