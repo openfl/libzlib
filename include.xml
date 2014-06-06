@@ -1,21 +1,21 @@
 <xml>
 	
-	<files id="libz">
+	<files id="native-zlib">
 		
-		<compilerflag value="-I${LIB_PREFIX}/z/include/"/>
+		<compilerflag value="-I${NATIVE_LIB_PATH}/zlib/"/>
 		
-		<file name="${LIB_PREFIX}/z/src/adler32.c"/>
-		<file name="${LIB_PREFIX}/z/src/crc32.c"/>
-		<file name="${LIB_PREFIX}/z/src/infback.c"/>
-		<file name="${LIB_PREFIX}/z/src/inflate.c"/>
-		<file name="${LIB_PREFIX}/z/src/uncompr.c"/>
-		<file name="${LIB_PREFIX}/z/src/compress.c"/>
-		<file name="${LIB_PREFIX}/z/src/deflate.c"/>
-		<file name="${LIB_PREFIX}/z/src/gzio.c"/>
-		<file name="${LIB_PREFIX}/z/src/inffast.c"/>
-		<file name="${LIB_PREFIX}/z/src/inftrees.c"/>
-		<file name="${LIB_PREFIX}/z/src/trees.c"/>
-		<file name="${LIB_PREFIX}/z/src/zutil.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/adler32.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/crc32.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/infback.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/inflate.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/uncompr.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/compress.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/deflate.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/gzio.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/inffast.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/inftrees.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/trees.c"/>
+		<file name="${NATIVE_LIB_PATH}/zlib/zutil.c"/>
 		
 	</files>
 	
