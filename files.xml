@@ -1,7 +1,27 @@
 <xml>
 	
-	<files id="native-toolkit-zlib">
-		
+	<files id="native-toolkit-zlib-depends">
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/zlib.h"/>
+	</files>
+
+	<files id="native-toolkit-zlib" tags="" >
+
+		<cache value="1" />
+		<tag value="${NATIVE_TOOLKIT_OPTIM_TAG}" if="NATIVE_TOOLKIT_OPTIM_TAG" />
+
+		<depend files="native-toolkit-zlib-depends"/>
+
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/zutil.h"/>
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/zconf.h"/>
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/trees.h"/>
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/inflate.h"/>
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/inftrees.h"/>
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/inffast.h"/>
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/inffixed.h"/>
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/gzguts.h"/>
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/crc32.h"/>
+		<depend name="${NATIVE_TOOLKIT_PATH}/zlib/deflate.h"/>
+
 		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/zlib/" />
 		
 		<file name="${NATIVE_TOOLKIT_PATH}/zlib/adler32.c" />
